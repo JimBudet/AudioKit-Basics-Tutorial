@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38916DFF21BEC6A00011E455 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38916DFE21BEC6A00011E455 /* TableViewController.swift */; };
 		38DF430921BB15EC00A57638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF430821BB15EC00A57638 /* AppDelegate.swift */; };
-		38DF430B21BB15EC00A57638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF430A21BB15EC00A57638 /* ViewController.swift */; };
 		38DF430E21BB15EC00A57638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DF430C21BB15EC00A57638 /* Main.storyboard */; };
 		38DF431021BB15EE00A57638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DF430F21BB15EE00A57638 /* Assets.xcassets */; };
 		38DF431321BB15EE00A57638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DF431121BB15EE00A57638 /* LaunchScreen.storyboard */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38916DFE21BEC6A00011E455 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		38DF430521BB15EC00A57638 /* AudioKit-Basics-Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioKit-Basics-Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DF430821BB15EC00A57638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38DF430A21BB15EC00A57638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		38DF430D21BB15EC00A57638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38DF430F21BB15EE00A57638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38DF431221BB15EE00A57638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,11 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				38DF430821BB15EC00A57638 /* AppDelegate.swift */,
-				38DF430A21BB15EC00A57638 /* ViewController.swift */,
 				38DF430C21BB15EC00A57638 /* Main.storyboard */,
 				38DF430F21BB15EE00A57638 /* Assets.xcassets */,
 				38DF431121BB15EE00A57638 /* LaunchScreen.storyboard */,
 				38DF431421BB15EE00A57638 /* Info.plist */,
+				38916DFE21BEC6A00011E455 /* TableViewController.swift */,
 			);
 			path = "AudioKit-Basics-Tutorial";
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38DF430B21BB15EC00A57638 /* ViewController.swift in Sources */,
+				38916DFF21BEC6A00011E455 /* TableViewController.swift in Sources */,
 				38DF430921BB15EC00A57638 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
